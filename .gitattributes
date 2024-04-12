@@ -1,0 +1,7 @@
+# Git line ending protection
+# To prevent issues when switching between WSL and Windows
+# https://code.visualstudio.com/docs/remote/troubleshooting#_resolving-git-line-ending-issues-in-wsl-resulting-in-many-modified-files
+* text=auto eol=lf
+*.[pP][sS]1 text eol=crlf
+*.[cC][mM][dD] text eol=crlf
+*.[bB][aA][tT] text eol=crlf
