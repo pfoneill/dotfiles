@@ -1,0 +1,30 @@
+# Generic: Temporary Files and Logs
+*~ 
+._* 
+.DS_Store
+Thumbs.db
+*Zone.Identifier
+~*.docx
+~*.xlsx
+*.log*
+*.zip
+
+# VS Code
+.vscode/
+
+# LabVIEW Metadata
+*.aliases
+*.lvlps
+.cache/
+
+# LabVIEW Binaries/Builds
+artifacts/
+[Bb]uilds/
+*.lvlibp
+
+# Project specific
+# Orion
+ABCELLERA-0292.json
+uploader.exe
+paul/
+fluent-bit*.exe
