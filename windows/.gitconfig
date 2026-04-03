@@ -1,6 +1,6 @@
 [user]
 	name = Paul O'Neill
-	email = paul.oneill@abcellera.com
+	email = poneill4@gmail.com
 [core]
 	excludesFile = ~/.gitignore
 	filemode = false
@@ -29,22 +29,15 @@
 [alias]
 	co = checkout
 	br = branch
+	ci = commit
 	st = status
+	last = log -1 HEAD
 	wt = worktree
-[credential "helperselector"]
-	selected = manager-core
-[safe]
-	directory = %(prefix)///csfs02.eng.cayvry1.abcbio.ca/eng/htr/settings/Orion-Settings
-	directory = %(prefix)///wsl.localhost/Ubuntu/home/pfoneill/src/hts_team_infrastructure_provisioning
 [push]
 	autoSetupRemote = true
 [submodule]
 	fetchJobs = 0
 [checkout]
 	workers = 0
-[credential "https://code.hampel-soft.com"]
-	provider = generic
-[maintenance]
-	repo = C:/src/Orion
 [column]
 	ui = auto
