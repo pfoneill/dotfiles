@@ -4,10 +4,13 @@ https://dotfiles.github.io/
 
 ## setup windows
 
-* install starship
-* install nerd fonts
-* install powerline fonts (may not be necessary)
-* configure windows terminal to use a Nerd Font (e.g. FiraCode Nerd Font)
+```pwsh
+# install nerd fonts
+winget install DEVCOM.JetBrainsMonoNerdFont
+
+# install starship
+winget install Starship.Starship
+```
 
 Test to see if fonts have installed correctly
 
